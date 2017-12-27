@@ -104,7 +104,7 @@ function removeTask(e) {
   // Specifically targets the delete icon and then removes entire li
   if (e.target.parentElement.classList.contains('delete-item')) {
     if (confirm('Are you sure that you want to delete this task?')) {
-      e.target.parentElement.parentElement.removeChild();
+      e.target.parentElement.parentElement.remove();
 
       // Removes from local storage
       removeTaskFromLocalStorage(e.target.parentElement.parentElement);
