@@ -1,0 +1,15 @@
+body {
+   background:black; 
+}
+/* Styling for materialze alert */
+.toast {
+  background-color: #26a69a;
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 600px) {
+  #toast-container {
+      top: 50%;
+      right: 50%;
+  }
+}
